@@ -6,4 +6,4 @@ The controllers folder is supposed to contain some of the backend equivalent cod
 
 ## The project
 
-As requested, this is a clientele that supports viewing the details of each client, as well as editing them and deleting them. There's also a paging system to prevent overload of the system by selecting all entries of the database. The bare minimum CSS was also done, to make everything readable.
+This is a very simple clientele that supports viewing the details of each client, as well as editing them and deleting them. There's also a paging system to prevent overload of the system by selecting all entries of the database. The bare minimum CSS was also done, to make everything readable. The PHP server is meant to be ran in the same folder that the project files are in, for the routing to work correctly.
