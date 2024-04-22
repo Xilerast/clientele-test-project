@@ -47,7 +47,7 @@ class QueryBuilder
                 return false;
             }
 
-            $addStatement = $this->pdo->prepare("INSERT INTO {$table} (id, fName, lName, phone, email) VALUES (NULL, '{$fName}', '{$lName}', '{$phone}', '{$email}')");
+            $addStatement = $this->pdo->prepare("INSERT INTO {$table} (fName, lName, phone, email) VALUES ('{$fName}', '{$lName}', '{$phone}', '{$email}')");
             $result = $addStatement->execute();
 
             $_SESSION['max-id'] = intval(findMaxId($this, $table));
